@@ -1,0 +1,35 @@
+{
+  "name": "zyml",
+  "version": "1.0.0",
+  "description": "Simple markdown language for templating and calculation",
+  "main": "dist/engine.js",
+  "types": "dist/engine.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browser": {
+    "dist/engine.js": "zyml/dist/engine.browser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "author": "",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.1",
+    "@types/node": "^20.4.9",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "expr-eval": "^2.0.2",
+    "jsdom": "^22.1.0",
+    "mammoth": "^1.6.0",
+    "ts-node": "^10.9.1"
+  }
+}
