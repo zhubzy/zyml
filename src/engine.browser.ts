@@ -9,7 +9,6 @@ export class ZmlParser extends Base {
       const result = await mammoth.convertToHtml({ arrayBuffer: buffer });
       this.html_string = result.value;
       const parser = new DOMParser();
-      console.log(this.html_string);
       this.document = parser.parseFromString(this.html_string, "text/html");
     }
     if (this.html_string) {

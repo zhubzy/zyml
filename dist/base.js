@@ -58,7 +58,7 @@ class Base {
                 }
                 else {
                     //If not add span by replacing with default value
-                    element.innerHTML = element.innerHTML.replace("{" + exp.raw_string + "}", `<span class="${exp.decoded_string}">${""}</span>`);
+                    element.innerHTML = element.innerHTML.replace(this.config.start_delimeter + exp.raw_string + this.config.end_delimeter, `<span class="${exp.decoded_string}">${""}</span>`);
                 }
             });
         }

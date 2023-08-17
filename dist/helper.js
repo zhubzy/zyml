@@ -28,7 +28,6 @@ function findAllAttributes(html_string, delimeterStart, delimeterEnd, document) 
                     decoded_string: attribute,
                     isCondition: expressionIsCondition(attribute),
                 });
-                console.log(attribute);
                 try {
                     const currAttributes = expr_eval_1.Parser.parse(attribute).variables();
                     currAttributes.map((val) => {

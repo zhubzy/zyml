@@ -34,7 +34,6 @@ export function findAllAttributes(
           decoded_string: attribute,
           isCondition: expressionIsCondition(attribute),
         });
-        console.log(attribute);
         try {
           const currAttributes = Parser.parse(attribute).variables();
           currAttributes.map((val) => {

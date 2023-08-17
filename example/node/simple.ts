@@ -12,6 +12,7 @@ async function main() {
     company_name: "Playground Inc",
   };
   let out = parser.render(sample_input);
+  console.log(out)
 }
 
 main();

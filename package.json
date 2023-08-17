@@ -1,6 +1,6 @@
 {
   "name": "zyml",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Templating engine for docx",
   "main": "dist/engine.js",
   "types": "dist/engine.d.ts",
@@ -17,10 +17,13 @@
   "author": "",
   "files": [
     "dist/",
-    "README.md"
+    "README.md",
+    "example/"
   ],
-  "keywords": [],
-  "license": "ISC",
+  "keywords": [
+    "template engine"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@types/jsdom": "^21.1.1",
     "@types/node": "^20.4.9",
