@@ -1,4 +1,3 @@
-# Guide to zyml
 
 # Introduction
 

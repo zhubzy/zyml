@@ -1,7 +1,7 @@
 {
   "name": "zyml",
-  "version": "1.0.0",
-  "description": "Simple markdown language for templating and calculation",
+  "version": "0.0.2",
+  "description": "Templating engine for docx",
   "main": "dist/engine.js",
   "types": "dist/engine.d.ts",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "test"
+    "url": "https://github.com/zhubzy/zyml.git"
   },
   "author": "",
   "files": [
@@ -29,7 +29,6 @@
   "dependencies": {
     "expr-eval": "^2.0.2",
     "jsdom": "^22.1.0",
-    "mammoth": "^1.6.0",
-    "ts-node": "^10.9.1"
+    "mammoth": "^1.6.0"
   }
 }
